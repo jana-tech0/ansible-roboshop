@@ -1,11 +1,14 @@
 [databases]
-192.168.1.20
+192.168.1.24
 
 [user]
 192.168.1.10 
 
 [catalogue]
 192.168.1.11
+
+[redis]
+192.168.1.20
 
 [all:vars] 
 ansible_ssh_private_Key_file=~/.ssh/id_rsa
